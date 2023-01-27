@@ -1,0 +1,101 @@
+/* no pude descubrir cómo alinear los botones con el texto porque al hacerlo como lista me alinea todo
+como si estuviesen los bullets también y me queda desalineado. Lo alinee poniendole margin right al ul
+También me costó mucho el manejo de las imágenes respecto de cómo cambiarles el tamaño más que nada*/
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background: #ab47bc;
+    text-align: center;
+    margin: 0px;
+}
+section{
+    min-height: 70vh;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.avatar{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.iconos{
+    width: 20%;
+    margin: 0 auto;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    margin-bottom: 10px;
+}
+img{
+    width: 18%;
+    margin: 2px;
+}
+body h1:nth-child(1){
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 70px;
+}
+h1{ 
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #212121;
+}
+p{
+    line-height: 18px;
+}
+div{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+}
+.presentacion{
+    background-color: #ce93d8;
+    border-radius: 15px;
+    margin: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 45px;
+}
+.btn{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    background: white;
+    color: #212121;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: -8px 8px 0px;
+    border: solid 4px #212121;
+    
+}
+.btn:hover{
+    background: #ce93d8;
+    color:white;
+    border: solid 4px #ab47bc;
+}
+li{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    list-style-type: none;
+}
+footer{
+    background: #ce93d8;
+    text-align: left;
+    height: 100px;
+}
+footer p{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 15px;
+    line-height: 12px;
+}
