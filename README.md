@@ -1,1 +1,1 @@
-# luanapedia.githubpage.io
+# luanapedia.github.io
