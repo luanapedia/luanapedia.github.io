@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luanapedia</title>
+    <link rel="icon" href="images/icono.png" type="image/png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    
     <meta name="robots" content="index follow">
-    <link rel="icon" href="images/icono.png" type="image/png">
+    
     <meta name="description" content="Mis links">
     <meta name="keywords" content="links, html, css">
     <meta name="author" content="Luana Vateff">
@@ -30,13 +33,13 @@
     <header>
         <h1>Bienvenidxs</h1>
         <img class="avatar" src="images/avatar.jpeg" alt="">
-        <nav>
+        <nav itemscope itemtype="http://schema.org/Person">
             <p><a href="https://www.instagram.com/luana.vateff/">@luana.vateff</a></p>
             <ul class="iconos">
                 <a href="https://www.linkedin.com/in/luana-vateff-81a0031b3/"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="icono linkedin"></a>
                 <a href="https://www.instagram.com/luana.vateff/"><img src="https://cdn.iconscout.com/icon/free/png-256/instagram-486855-2364924.png" alt="icono instagram"></a>
                 <a href="https://github.com/luanavateff"><img src="https://icons-for-free.com/iconfiles/ico/256/github-1326548729342431792.ico" alt="icono Github"></a>
-                <a href="mailto:luanavateff@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/95/95645.png" alt="icono correo"></a>
+                <a href="mailto:luanavateff@gmail.com" itemprop="email"><img src="https://cdn-icons-png.flaticon.com/512/95/95645.png" alt="icono correo"></a>
             </ul>
         </nav>
     </header>
@@ -57,9 +60,8 @@
         <h1 class="saludo">Adiós</h1>
     </section>
     <footer>
-        <div itemscope itemtype="http://schema.org/Person">
+        <div>
             <p>©Luanapedia</p>
-            <p>Contacto: <span itemprop="email"><a href="mailto:luanavateff@gmail.com">Luana Vateff</a></span></p>
             <p>Creada para el SummerHack 2023 de <a href="https://www.codearock.com">@codearock</a></p>
         </div>
     </footer>
